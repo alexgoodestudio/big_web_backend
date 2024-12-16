@@ -10,6 +10,11 @@ const notFound = require("./errors/notFound");
 const reservationsRouter = require("./reservations/reservations.router");
 const tablesRouter = require("./tables/tables.router");
 
+const subscriberRouter = require("./subscribers/subscribers.router");
+const chatRouter = require('./chat/chat.router')
+const estimateRouter = require('./estimates/estimates.router')
+
+
 const app = express();
 
 app.use(cors());
@@ -17,6 +22,13 @@ app.use(express.json());
 
 app.use("/reservations", reservationsRouter);
 app.use("/tables", tablesRouter)
+
+//-----
+
+app.use("/estimates", estimateRouter);
+app.use("/subscribers", subscriberRouter);
+app.use("/responses", chatRouter);
+
 
 app.use(notFound);
 app.use(errorHandler);

@@ -1,6 +1,6 @@
-const service = require("./chat.service");
-const asyncErrorBoundary = require("../errors/asyncErrorBoundary");
-const findBestResponse = require("../middleware/findBestResponse.js")
+const service = require("./chat.service.js");
+const asyncErrorBoundary = require("../errors/asyncErrorBoundary.js");
+const findBestResponse = require("../errors/findBestResponse.js")
 
 
 async function listResponse(req, res, next) {

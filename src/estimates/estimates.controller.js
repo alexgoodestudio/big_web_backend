@@ -1,9 +1,8 @@
 const service = require("./estimates.service")
 const asyncErrorBoundary = require("../errors/asyncErrorBoundary");
-const empty = require("../middleware/emptySubscribeForm");
-const emailExists = require("../middleware/emailExists");
-const haveAtSymbol = require("../middleware/haveAtSymbol")
-const emptyEstimateForm = require("../middleware/emptyEstimateForm")
+const empty = require("../errors/emptySubscribeForm");
+const haveAtSymbol = require("../errors/haveAtSymbol")
+const emptyEstimateForm = require("../errors/emptyEstimateForm")
 
 
 

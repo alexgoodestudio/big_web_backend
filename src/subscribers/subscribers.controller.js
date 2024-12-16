@@ -1,8 +1,8 @@
 const service = require("./subscribers.service");
 const asyncErrorBoundary = require("../errors/asyncErrorBoundary");
-const empty = require("../middleware/emptySubscribeForm");
-const emailExists = require("../middleware/emailExists");
-const haveAtSymbol = require("../middleware/haveAtSymbol")
+const empty = require("../errors/emptySubscribeForm");
+const emailExists = require("../errors/emailExists");
+const haveAtSymbol = require("../errors/haveAtSymbol")
 
 async function list(req, res) {
   const data = await service.list();
