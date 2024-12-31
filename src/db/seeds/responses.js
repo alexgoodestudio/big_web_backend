@@ -271,8 +271,28 @@ exports.seed = async function(knex) {
   },
   {
     service_type: 'discount',
-    responses: "Unfortunately we have no discounts right now, but join our news letter by follwing the subscribe tab at the top for future promotions.",
+    responses: "Unfortunately we have no discounts right now, but join our news letter by following the subscribe tab at the top for future promotions.",
     keywords: 'discount,discounts,veteran,veterans,teacher,sales,promotion,military,coupons,sale,promotions,free,deals,deal'
+  },
+  {
+    service_type: 'airbnbRentalCleaning',
+    responses: "Do you own a short-term rental or Airbnb? We provide turnover cleaning services to ensure your property is guest-ready between stays.",
+    keywords: 'airbnb cleaning,rental cleaning,short-term rental,guest cleaning,turnover cleaning'
+  },
+  {
+    service_type: 'outdoorFurnitureCleaning',
+    responses: "We offer outdoor furniture cleaning to remove dirt, pollen, and grime from chairs, tables, and more, keeping your patio or garden space welcoming.",
+    keywords: 'outdoor furniture,patio cleaning,clean outdoor furniture,clean patio,deck cleaning'
+  },
+  {
+    service_type: 'emergencyCleaning',
+    responses: "Need cleaning on short notice due to an emergency? Contact us directly at (804) 482-0516, and we’ll do our best to assist.",
+    keywords: 'emergency clean,last minute cleaning,urgent cleaning,quick clean,emergency'
+  },
+  {
+    service_type: 'cleaningForSeniors',
+    responses: "We understand the unique needs of seniors. Our team provides gentle, reliable cleaning services to make homes safer and more comfortable.",
+    keywords: 'senior cleaning,elderly service,older adults,help for seniors,senior assistance'
   }
   ];
 
