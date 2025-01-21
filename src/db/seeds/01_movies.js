@@ -8,14 +8,14 @@ exports.seed = function (knex) {
         "Chihiro and her parents are moving to a small Japanese town in the countryside, much to Chihiro's dismay. On the way to their new home, Chihiro's father makes a wrong turn and drives down a lonely one-lane road which dead-ends in front of a tunnel. Her parents decide to stop the car and explore the area. They go through the tunnel and find an abandoned amusement park on the other side, with its own little town...",
       image_url: "../movieposters/spiritedaway.jpg",
     },
-    {
-      title: "Interstellar",
-      runtime_in_minutes: 169,
-      rating: "PG-13",
-      description:
-        "Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life...",
-      image_url: "../movieposters/interstellar.jpg",
-    },
+    // {
+    //   title: "Interstellar",
+    //   runtime_in_minutes: 169,
+    //   rating: "PG-13",
+    //   description:
+    //     "Earth's future has been riddled by disasters, famines, and droughts. There is only one way to ensure mankind's survival: Interstellar travel. A newly discovered wormhole in the far reaches of our solar system allows a team of astronauts to go where no man has gone before, a planet that may have the right environment to sustain human life...",
+    //   image_url: "../movieposters/interstellar.jpg",
+    // },
     {
       title: "Rear Window",
       runtime_in_minutes: 112,
@@ -24,22 +24,22 @@ exports.seed = function (knex) {
         'Professional photographer L.B. "Jeff" Jefferies breaks his leg while getting an action shot at an auto race. Confined to his New York apartment, he spends his time looking out of the rear window observing the neighbors. He begins to suspect that a man across the courtyard may have murdered his wife. Jeff enlists the help of his high society fashion-consultant girlfriend Lisa Freemont and his visiting nurse Stella to investigate...',
       image_url: "../movieposters/rearwindow.jpg",
     },
-    {
-      title: "Raiders of the Lost Ark",
-      runtime_in_minutes: 115,
-      rating: "PG",
-      description:
-        "The year is 1936. An archaeology professor named Indiana Jones is venturing in the jungles of South America searching for a golden statue. Unfortunately, he sets off a deadly trap but miraculously escapes. Then, Jones hears from a museum curator named Marcus Brody about a biblical artifact called The Ark of the Covenant, which can hold the key to human existence. Jones has to venture to vast places such as Nepal and Egypt to find this artifact...",
-      image_url: "../movieposters/indianajones.jpg",
-    },
-    {
-      title: "Spider-Man: Into the Spider-Verse",
-      runtime_in_minutes: 117,
-      rating: "PG",
-      description:
-        "Miles Morales is a New York teen struggling with school, friends and, on top of that, being the new Spider-Man. When he comes across Peter Parker, the erstwhile savior of New York, in the multiverse, Miles must train to become the new protector of his city...",
-      image_url: "../movieposters/spiderman.jpg",
-    },
+    // {
+    //   title: "Raiders of the Lost Ark",
+    //   runtime_in_minutes: 115,
+    //   rating: "PG",
+    //   description:
+    //     "The year is 1936. An archaeology professor named Indiana Jones is venturing in the jungles of South America searching for a golden statue. Unfortunately, he sets off a deadly trap but miraculously escapes. Then, Jones hears from a museum curator named Marcus Brody about a biblical artifact called The Ark of the Covenant, which can hold the key to human existence. Jones has to venture to vast places such as Nepal and Egypt to find this artifact...",
+    //   image_url: "../movieposters/indianajones.jpg",
+    // },
+    // {
+    //   title: "Spider-Man: Into the Spider-Verse",
+    //   runtime_in_minutes: 117,
+    //   rating: "PG",
+    //   description:
+    //     "Miles Morales is a New York teen struggling with school, friends and, on top of that, being the new Spider-Man. When he comes across Peter Parker, the erstwhile savior of New York, in the multiverse, Miles must train to become the new protector of his city...",
+    //   image_url: "../movieposters/spiderman.jpg",
+    // },
     {
       title: "Whiplash",
       runtime_in_minutes: 106,
@@ -56,22 +56,22 @@ exports.seed = function (knex) {
         "Sometime in the future, the city of Metropolis is home to a Utopian society where its wealthy residents live a carefree life. One of those is Freder Fredersen. One day, he spots a beautiful woman with a group of children, she and the children quickly disappear. Trying to follow her, he is horrified to find an underground world of workers who apparently run the machinery that keeps the Utopian world above ground functioning...",
       image_url: "../movieposters/metropolis.jpg",
     },
-    {
-      title: "Up",
-      runtime_in_minutes: 96,
-      rating: "PG",
-      description:
-        "As a boy, Carl Fredricksen wanted to explore South America and find the forbidden Paradise Falls. About 64 years later he gets to begin his journey along with Boy Scout Russell by lifting his house with thousands of balloons. On their journey, they make many new friends including a talking dog, and figure out that someone has evil plans. Carl soon realizes that this evildoer is his childhood idol...",
-      image_url: "../movieposters/up.jpg",
-    },
-    {
-      title: "Monty Python and the Holy Grail",
-      runtime_in_minutes: 91,
-      rating: "PG",
-      description:
-        "History is turned on its comic head when, in tenth century England, King Arthur (Graham Chapman) travels the countryside to find knights who will join him at the Round Table in Camelot. Gathering up the men is a tale in itself but after a bit of a party at Camelot, many decide to leave only to be stopped by God, who sends them on a quest: to find the Holy Grail...",
-      image_url: "../movieposters/montypython.jpg",
-    },
+    // {
+    //   title: "Up",
+    //   runtime_in_minutes: 96,
+    //   rating: "PG",
+    //   description:
+    //     "As a boy, Carl Fredricksen wanted to explore South America and find the forbidden Paradise Falls. About 64 years later he gets to begin his journey along with Boy Scout Russell by lifting his house with thousands of balloons. On their journey, they make many new friends including a talking dog, and figure out that someone has evil plans. Carl soon realizes that this evildoer is his childhood idol...",
+    //   image_url: "../movieposters/up.jpg",
+    // },
+    // {
+    //   title: "Monty Python and the Holy Grail",
+    //   runtime_in_minutes: 91,
+    //   rating: "PG",
+    //   description:
+    //     "History is turned on its comic head when, in tenth century England, King Arthur (Graham Chapman) travels the countryside to find knights who will join him at the Round Table in Camelot. Gathering up the men is a tale in itself but after a bit of a party at Camelot, many decide to leave only to be stopped by God, who sends them on a quest: to find the Holy Grail...",
+    //   image_url: "../movieposters/montypython.jpg",
+    // },
     {
       title: "Pan's Labyrinth",
       runtime_in_minutes: 91,
@@ -96,14 +96,14 @@ exports.seed = function (knex) {
         'In the year 2032, Evey Hammond is an average citizen of the United Kingdom, which is under the rule of the fascist and tyrannical Norsefire Party. She is an employee of the state-run British Television Network, but soon, she becomes the number one enemy of the state together with an enigmatic and larger-than-life freedom fighter known only by the letter "V"...',
       image_url: "../movieposters/vforvendetta.jpg",
     },
-    {
-      title: "Jurassic Park",
-      runtime_in_minutes: 127,
-      rating: "PG-13",
-      description:
-        "Huge advancements in scientific technology have enabled a mogul to create an island full of living dinosaurs. John Hammond has invited four individuals, along with his two grandchildren, to join him at Jurassic Park...",
-      image_url: "../movieposters/jurassicpark.jpg",
-    },
+    // {
+    //   title: "Jurassic Park",
+    //   runtime_in_minutes: 127,
+    //   rating: "PG-13",
+    //   description:
+    //     "Huge advancements in scientific technology have enabled a mogul to create an island full of living dinosaurs. John Hammond has invited four individuals, along with his two grandchildren, to join him at Jurassic Park...",
+    //   image_url: "../movieposters/jurassicpark.jpg",
+    // },
     {
       title: "Blade Runner",
       runtime_in_minutes: 117,
@@ -112,21 +112,21 @@ exports.seed = function (knex) {
         'In the twenty-first century, a corporation develops androids to be used as slaves in colonies outside of the Earth, identified as "replicants". In 2019, a former Police Officer is hired to hunt down a fugitive group of replicants living undercover in Los Angeles, California...',
       image_url: "../movieposters/bladerunner.jpg",
     },
-    {
-      title: "Gone Girl",
-      runtime_in_minutes: 149,
-      rating: "R",
-      description:
-        "On the occasion of his fifth wedding anniversary, Nick Dunne reports that his wife, Amy, has gone missing. Under pressure from the police and a growing media frenzy, Nick's portrait of a blissful union begins to crumble...",
-      image_url: "../movieposters/gonegirl.jpg",
-    },
-    {
-      title: "Mad Max: Fury Road",
-      runtime_in_minutes: 120,
-      rating: "R",
-      description:
-        "In 2029 the mutant population has shrunken significantly due to genetically modified plants designed to reduce mutant powers and the X-Men have disbanded. Logan, whose power to self-heal is dwindling, has surrendered himself to alcohol and now earns a living as a chauffeur. He takes care of the ailing old Professor X whom he keeps hidden away. One day, a female stranger asks Logan to drive a girl named Laura to the Canadian border...",
-      image_url: "../movieposters/madmax.jpg",
-    },
+    // {
+    //   title: "Gone Girl",
+    //   runtime_in_minutes: 149,
+    //   rating: "R",
+    //   description:
+    //     "On the occasion of his fifth wedding anniversary, Nick Dunne reports that his wife, Amy, has gone missing. Under pressure from the police and a growing media frenzy, Nick's portrait of a blissful union begins to crumble...",
+    //   image_url: "../movieposters/gonegirl.jpg",
+    // },
+    // {
+    //   title: "Mad Max: Fury Road",
+    //   runtime_in_minutes: 120,
+    //   rating: "R",
+    //   description:
+    //     "In 2029 the mutant population has shrunken significantly due to genetically modified plants designed to reduce mutant powers and the X-Men have disbanded. Logan, whose power to self-heal is dwindling, has surrendered himself to alcohol and now earns a living as a chauffeur. He takes care of the ailing old Professor X whom he keeps hidden away. One day, a female stranger asks Logan to drive a girl named Laura to the Canadian border...",
+    //   image_url: "../movieposters/madmax.jpg",
+    // },
   ]);
 };
